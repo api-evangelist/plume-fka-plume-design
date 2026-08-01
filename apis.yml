@@ -1,8 +1,28 @@
 aid: plume-fka-plume-design
+accessModel:
+  pricing: unknown
+  onboarding: approval
+  trial: false
+  try_now: false
+  public: false
+  label: Requires approval
+  confidence: medium
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/plume-fka-plume-design.png
 name: Plume (fka Plume Design)
-description: Plume (fka Plume Design) is a company surfaced as a portfolio company of insight-partners
-  and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the
-  enrichment pipeline.
+description: >-
+  Plume (formerly Plume Design) is a cloud-based smart-home and network-services
+  platform for internet service providers (ISPs). Its products — Plume Home for
+  residential WiFi, security and parental controls, WorkPass for small business,
+  Uprise for multi-dwelling units, and the Haystack and Sweepr operations and
+  support tools — reach hundreds of ISPs and millions of homes worldwide. Plume
+  also stewards OpenSync, an open-source software-defined-networking framework
+  whose Northbound APIs let ISPs build their own cloud and applications across a
+  variety of CPE and consumer networking devices. Public developer access is
+  partner-gated through the OpenSync certified-partner program rather than an open
+  public API; there is no published public OpenAPI specification.
 url: https://raw.githubusercontent.com/api-evangelist/plume-fka-plume-design/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,9 +32,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Smart Home
+- WiFi
+- Networking
+- ISP
+- Connectivity
+- Home Security
+- OpenSync
+- SDN
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,3 +52,41 @@ maintainers:
 common:
 - type: Website
   url: https://www.plume.com/
+- type: DeveloperPortal
+  url: https://www.opensync.io/developer
+- type: Documentation
+  url: https://opensync.atlassian.net/wiki/spaces/OCC/overview
+- type: GettingStarted
+  url: https://www.opensync.io/get-started
+- type: GitHubOrganization
+  url: https://github.com/plume-design
+- type: Support
+  url: https://support.plume.com/
+- type: StatusPage
+  url: https://status-gamma-prod.plumenet.io/
+- type: StatusPage
+  name: EU Production Cloud Status
+  url: https://status-kappa-prod.plumenet.io/
+- type: TrustCenter
+  url: security/plume-fka-plume-design-trust-center.yml
+- type: Compliance
+  url: https://www.plume.com/trust
+- type: Security
+  url: https://vdp.plume.com
+- type: VulnerabilityDisclosure
+  url: security/plume-fka-plume-design-vulnerability-disclosure.yml
+- type: DomainSecurity
+  url: security/plume-fka-plume-design-domain-security.yml
+- type: Lifecycle
+  url: lifecycle/plume-fka-plume-design-lifecycle.yml
+- type: LLMsTxt
+  url: llms/plume-fka-plume-design-llms.txt
+- type: TermsOfService
+  url: https://www.plume.com/legal/terms-of-service/
+- type: PrivacyPolicy
+  url: https://www.plume.com/legal/privacy
+x-enrichment:
+  date: '2026-07-20'
+  status: enriched
+  artifacts_added: 5
+  pass: local-v1

@@ -1,0 +1,17 @@
+generated: '2026-07-20'
+method: searched
+source: https://www.plume.com/trust
+status_page:
+  us: https://status-gamma-prod.plumenet.io/
+  eu: https://status-kappa-prod.plumenet.io/
+  platform: Atlassian Statuspage
+  tracks_apis: true
+notes: >-
+  Plume operates region-specific production cloud status pages (US and EU) on
+  Atlassian Statuspage that track an "APIs" component alongside app and AWS
+  infrastructure services. No public versioning or deprecation policy is
+  published; the Northbound/cloud APIs are partner-gated (ISP/OpenSync program),
+  so no deprecated operations can be derived (no public OpenAPI in the repo).
+deprecation: null
+sla: null
+deprecated_operations: []

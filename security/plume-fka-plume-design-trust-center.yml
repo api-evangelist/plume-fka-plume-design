@@ -1,0 +1,30 @@
+generated: '2026-07-20'
+method: searched
+probe: true
+source: https://www.plume.com/trust
+url: https://www.plume.com/trust
+certifications:
+- ISO/IEC 27001:2022
+- ISO/IEC 27701:2019
+- Data Privacy Framework
+- GDPR
+frameworks:
+- NIST
+- OWASP SAMM
+programs:
+- privacy-by-design
+- third-party risk management
+- vulnerability disclosure
+status_pages:
+- region: us
+  url: https://status-gamma-prod.plumenet.io/
+- region: eu
+  url: https://status-kappa-prod.plumenet.io/
+evidence:
+- source: https://www.plume.com/trust
+  keywords:
+  - trust center
+  - iso 27001
+  - iso 27701
+  - data privacy framework
+  - gdpr

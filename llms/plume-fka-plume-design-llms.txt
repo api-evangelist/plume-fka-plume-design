@@ -1,0 +1,27 @@
+# Plume (fka Plume Design)
+
+> Plume is a cloud-based smart-home and network-services platform for internet service providers (ISPs). Its offerings — Plume Home (residential WiFi, security, and parental controls), WorkPass (small business), Uprise (MDU), plus the Haystack and Sweepr operations/support tools — are delivered to hundreds of ISPs and millions of homes. Plume stewards OpenSync, an open-source, software-defined networking framework whose Northbound APIs let ISPs build their own cloud and applications. Public developer/API access is partner-gated (ISP and OpenSync certified-partner program); there is no open public OpenAPI specification.
+
+## Company
+- [Plume website](https://www.plume.com/): Company home and product overview.
+- [Plume Home](https://www.plume.com/homepass/): Residential smart-home WiFi services product.
+- [Trust Center](https://www.plume.com/trust): Security, privacy, compliance (ISO/IEC 27001:2022, ISO/IEC 27701:2019, Data Privacy Framework, GDPR).
+
+## Developer
+- [OpenSync](https://www.opensync.io/): Open-source SDN framework Plume stewards.
+- [OpenSync Developer](https://www.opensync.io/developer): Northbound APIs and sandbox to build your own cloud/apps.
+- [OpenSync Get Started](https://www.opensync.io/get-started): Certified partnership program and onboarding.
+- [OpenSync Wiki](https://opensync.atlassian.net/wiki/spaces/OCC/overview): Documentation space (Confluence).
+- [Plume GitHub organization](https://github.com/plume-design): OpenSync core, platform layers, and vendor templates (C/Shell/Python).
+
+## Operations
+- [US Production Cloud Status](https://status-gamma-prod.plumenet.io/): Atlassian Statuspage tracking APIs, apps, and AWS services.
+- [EU Production Cloud Status](https://status-kappa-prod.plumenet.io/): EU-region status page.
+- [Support](https://support.plume.com/): Customer support portal.
+
+## Security
+- [Vulnerability Disclosure Program](https://vdp.plume.com): Report security issues (security@plume.com / infosec@plume.com); no monetary bounty.
+
+## Legal
+- [Terms of Service](https://www.plume.com/legal/terms-of-service/)
+- [Privacy Policy](https://www.plume.com/legal/privacy)
